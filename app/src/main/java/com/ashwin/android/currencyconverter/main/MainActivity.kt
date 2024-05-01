@@ -1,4 +1,4 @@
-package com.ashwin.android.currencyconverter
+package com.ashwin.android.currencyconverter.main
 
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
@@ -7,7 +7,6 @@ import androidx.activity.viewModels
 import androidx.core.view.isVisible
 import androidx.lifecycle.lifecycleScope
 import com.ashwin.android.currencyconverter.databinding.ActivityMainBinding
-import com.ashwin.android.currencyconverter.main.MainViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collect
 
